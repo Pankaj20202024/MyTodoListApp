@@ -1,0 +1,129 @@
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(249, 249, 249);
+
+}
+
+/* css for heading of my app  */
+
+.AppHeading {
+  display: inline;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  padding: 5px;
+  color: crimson;
+  box-shadow: 0 0 10px crimson;
+}
+
+
+/* css for input fied  */
+
+.InputFieldContainer {
+  width: 50%;
+}
+
+.InputField {
+  width: 70%;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: crimson;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.InputField:focus {
+  outline: none;
+  border: 2px solid crimson;
+  box-shadow: 0 0 5px crimson;
+}
+
+/* css for adding todo list button  */
+.AddingButton {
+  width: 25%;
+  height: 40px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease-in-out;
+}
+
+.AddingButton:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+  box-shadow: 0 0 5px crimson;
+  border: none;
+  background-color: crimson;
+  color: white;
+}
+
+/* css for displaying  todo list app  */
+
+.MainContainer2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DisplayTodoHeading {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  padding: 5px;
+  color: crimson;
+  box-shadow: 0 0 10px crimson;
+}
+
+.TodoItemDisplayContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+
+/* css for displaying todo item  */
+
+.displayTodoItem {
+  display: flex;
+  flex-direction: column;
+
+  margin: 1%;
+}
+
+.UserName {
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background-color: crimson;
+  box-shadow: 0 0 5px crimson;
+  border-radius: 5%;
+  margin: 8%;
+}
+
+/* css for delete button */
+.DeleteButton {
+  font-size: 1.3rem;
+  border-radius: 10px;
+  font-family: 'Baloo Bhai 2', cursive;
+  color: white;
+  border: 2px solid crimson;
+  background-color: crimson;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px crimson;
+  cursor: pointer;
+}
+
